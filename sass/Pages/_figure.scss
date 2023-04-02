@@ -1,0 +1,52 @@
+.figure {
+    background-image: url(../../img/post-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+    .figure-sub {
+        .overlay-figure {
+            background-color: rgba($color: #0353ff, $alpha: 0.8);
+            height: 250px;
+            position: absolute;
+            top: 0;
+            content: " ";
+            z-index: 2;
+            width: 100%;
+            left: 0;
+        }
+
+        .row {
+            width: 100%;
+            z-index: 2;
+            position: absolute;
+
+            .figure-item {
+                color: white;
+
+                i {
+                    
+                height: 70px;
+                width: 70px;
+                font-size: 2rem;
+                border-radius: 50%;
+                line-height: 1.55;
+                margin: 0 auto;
+                text-align: center;
+                box-shadow: 0 0 0 10px white;
+                display: block;
+                padding-top:10px ;
+                }
+               
+                h3 {
+                    margin-top: 30px;
+                }
+
+                h6 {}
+            }
+        }
+    }
+}
