@@ -1,0 +1,17 @@
+@mixin styleHeader($fs,$fw,$color,$letter-spacing){
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    letter-spacing:$letter-spacing;
+}
+
+@mixin styleNav($fs,$fw,$color){
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+@mixin styleText($fs,$fw,$color){
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}

@@ -1,0 +1,29 @@
+// file này dùng để thêm dường dẫn các file trong các thư mục con trên
+// import theo thứ tự
+
+// Helpers: chứa file varialbles, mixin, extend, function
+@import "./Helpers/variable";
+@import "./Helpers/mixin";
+// Vendors: chứ file scss của những thư viện mà chúng ta sử dụng
+
+
+// Base: chứa file chỉnh sửa lại mặc định của trình duyệt hoặc của thư viện
+@import "./Base/reset";
+
+
+// Components: chứa file phần tử nhỏ của trang như button, dropdown
+
+
+// Layouts: chứa thành phần lớn dùng chung như header, footer, sidebar
+@import "./Layouts/header";
+@import "./Layouts/carousel";
+@import "./Layouts/footer";
+// Pages: chứa style riênng của những page khác nhau (home, contact, about)
+@import "./Pages/about";
+@import "./Pages/blog";
+@import "./Pages/figure";
+@import "./Pages/portfolio";
+@import "./Pages/service";
+@import "./Pages/tesimonial";
+
+// Themes: chứa theme chủ đạo khác nhau của trang web

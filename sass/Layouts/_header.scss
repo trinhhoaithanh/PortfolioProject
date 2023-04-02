@@ -1,0 +1,53 @@
+.header{
+    font-weight: $fw-600;
+    position: absolute; 
+    z-index: 2;
+    position: fixed;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    width: 100%;
+    .container{
+        .navbar{
+            .container-fluid{
+                .row{
+                    .col-6{
+                        .navbar-brand{
+                            color: white;
+                            @include styleHeader($fs-logo,$fw-600,$color-header,$letter-spacing-1)
+                        }
+                        .navbar-toggle{
+                            .navbar-toggler-icon{
+
+                            }
+                        }
+                    }
+                    .nav{
+                        padding-left: 300px;
+                        .collapse{
+                            .navbar-nav{
+                                .nav-item{
+                                    .nav-link{
+                                        color: white !important;
+                                        @include styleHeader($fs-nav,$fw-600,$color-header,$letter-spacing-04)
+                                    }
+                                }
+                                .dropdown{
+                                    .dropdown-toggle{
+
+                                    }
+                                    .dropdown-menu{
+                                        li{
+                                            .dropdown-item{
+
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

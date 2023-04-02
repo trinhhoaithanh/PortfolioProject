@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+.header {
+  font-weight: 600;
+  position: absolute;
+  z-index: 2;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.header .container .navbar .container-fluid .row .col-6 .navbar-brand {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+}
+.header .container .navbar .container-fluid .row .nav {
+  padding-left: 300px;
+}
+.header .container .navbar .container-fluid .row .nav .collapse .navbar-nav .nav-item .nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.4px;
+}
+.carousel-home {
+  background-image: url(../../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+.carousel-home .container .carousel-content {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: white;
+}
+.about .container {
+  box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+}
+.about .container .row .col-6 .personal-info .row .avatar img {
+  border-radius: 6px;
+}
+.about .container .row .col-6 .personal-info .row .info h6 {
+  font-weight: 700;
+}
+.about .container .row .col-6 .personal-info .row .info h6 span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4e4e4e;
+}
+.about .container .row .col-6 .skill h6 {
+  font-weight: 700;
+}
+.about .container .row .col-6 .skill .progress-skill p {
+  font-weight: 300;
+}
+.about .container .row .col-6 h3 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.about .container .row .col-6 h3:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+  margin-bottom: 10px;
+}
+.about .container .row .col-6 p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #4e4e4e;
+}/*# sourceMappingURL=main.css.map */

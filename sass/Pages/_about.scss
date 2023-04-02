@@ -1,0 +1,66 @@
+.about {
+    .container {
+        box-shadow: 1px -2px 13px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px -2px 13px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -2px 13px -5px rgba(0,0,0,0.75);
+        .row {
+            .col-6 {
+                .personal-info {
+                    .row {
+                        .avatar {
+                            img {
+                                border-radius: 6px;
+                            }
+                        }
+
+                        .info {
+                            h6 {
+                                font-weight: $fw-heading-1;
+
+                                span {
+                                    @include styleText($fs-nav,$fw-text,$color-text);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .skill {
+                    h6 {
+                        font-weight: $fw-heading-1;
+                    }
+
+                    .progress-skill {
+                        p {
+                            font-weight: $fw-text;
+                        }
+
+                        .progress {
+                            .progress-bar {}
+                        }
+                    }
+                }
+            }
+
+            .col-6 {
+                h3 {
+                    position: relative;
+                    margin-bottom: 30px;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        height: 3px;
+                        background-color: #0078ff;
+                        width: 100px;
+                        bottom: -12px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                p {
+                    @include styleText($fs-text,$fw-text,$color-text);
+                }
+            }
+        }
+    }
+}
