@@ -1,8 +1,9 @@
 .about {
     .container {
-        box-shadow: 1px -2px 13px -5px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px -2px 13px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 1px -2px 13px -5px rgba(0,0,0,0.75);
+        // box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+        // -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+        // -moz-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+        @include styleBoxShadow( $box-shadow,$-webkit-box-shadow,$-moz-box-shadow);
         .row {
             .col-6 {
                 .personal-info {
@@ -18,7 +19,7 @@
                                 font-weight: $fw-heading-1;
 
                                 span {
-                                    @include styleText($fs-nav,$fw-text,$color-text);
+                                    @include styleText($fs-nav, $fw-text, $color-text);
                                 }
                             }
                         }
@@ -46,6 +47,7 @@
                 h3 {
                     position: relative;
                     margin-bottom: 30px;
+
                     &:before {
                         content: "";
                         position: absolute;
@@ -58,7 +60,7 @@
                 }
 
                 p {
-                    @include styleText($fs-text,$fw-text,$color-text);
+                    @include styleText($fs-text, $fw-text, $color-text);
                 }
             }
         }

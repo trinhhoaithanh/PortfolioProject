@@ -84,4 +84,43 @@
   font-size: 20px;
   font-weight: 300;
   color: #4e4e4e;
+}
+
+.service .container .service-heading {
+  text-align: center;
+}
+.service .container .service-heading h1 {
+  font-weight: 900;
+}
+.service .container .service-heading .bar {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.service .service-items .row .service-item {
+  margin-bottom: 40px;
+}
+.service .service-items .row .service-item .card {
+  padding-top: 30px;
+  box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+}
+.service .service-items .row .service-item .card i {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  padding-top: 25px;
+}
+.service .service-items .row .service-item .card .card-body .card-title {
+  font-weight: 600;
+}
+.service .service-items .row .service-item .card .card-body .card-text {
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */

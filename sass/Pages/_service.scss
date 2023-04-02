@@ -1,0 +1,54 @@
+.service {
+    .container {
+        .service-heading {
+            text-align: center;
+
+            h1 {
+                font-weight: $fw-heading-900;
+            }
+
+            p {}
+
+            .bar {
+                width: 40px;
+                height: 5px;
+                background-color: #0078ff;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .service-items {
+        .row {
+            .service-item {
+                margin-bottom: 40px;
+
+                .card {
+                    padding-top: 30px;
+                    @include styleBoxShadow( $box-shadow,$-webkit-box-shadow,$-moz-box-shadow);
+                    i {
+                        height: 100px;
+                        width: 100px;
+                        font-size: 2rem;
+                        border-radius: 50%;
+                        line-height: 1.55;
+                        margin: 0 auto;
+                        text-align: center;
+                        box-shadow: 0 0 0 10px #0078ff;
+                        padding-top: 25px;
+                    }
+
+                    .card-body {
+                        .card-title {
+                            font-weight:$fw-600;
+                        }
+
+                        .card-text {
+                            font-weight: $fw-text;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
