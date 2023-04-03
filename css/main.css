@@ -128,6 +128,51 @@
 .figure .figure-sub .row .figure-item h3 {
   margin-top: 30px;
 }
+.portfolio .container .portfolio-heading {
+  text-align: center;
+}
+.portfolio .container .portfolio-heading h1 {
+  font-weight: 900;
+}
+.portfolio .container .portfolio-heading .bar {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.portfolio .container .portfolio-items {
+  margin-left: 40px;
+}
+.portfolio .container .portfolio-items .row .portfolio-item .card {
+  border: none;
+  margin-bottom: 40px;
+  box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+}
+.portfolio .container .portfolio-items .row .portfolio-item .card .card-body .row .col-7 .card-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.portfolio .container .portfolio-items .row .portfolio-item .card .card-body .row .col-7 p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4e4e4e;
+}
+.portfolio .container .portfolio-items .row .portfolio-item .card .card-body .row .col-7 p span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #0078ff;
+}
+.portfolio .container .portfolio-items .row .portfolio-item .card .card-body .row .col-5 {
+  text-align: right;
+}
+.portfolio .container .portfolio-items .row .portfolio-item .card .card-body .row .col-5 i {
+  font-size: 30px;
+  color: #0078ff;
+}
+
 .service .container .service-heading {
   text-align: center;
 }
