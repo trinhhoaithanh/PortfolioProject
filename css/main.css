@@ -103,11 +103,26 @@
   box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.blog .container .blog-items .row .blog-item .card .blog-field {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+.blog .container .blog-items .row .blog-item .card .card-body {
+  padding-top: 30px;
 }
 .blog .container .blog-items .row .blog-item .card .card-body h3 {
   font-size: 20px;
   font-weight: 600;
   color: black;
+}
+.blog .container .blog-items .row .blog-item .card .card-body h3:hover {
+  color: #0078ff;
 }
 .blog .container .blog-items .row .blog-item .card .card-body .card-text {
   font-size: 16px;

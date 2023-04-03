@@ -21,15 +21,23 @@
                 .blog-item{
                     .card{
                         @include styleBoxShadow( $box-shadow,$-webkit-box-shadow,$-moz-box-shadow);
+                        position: relative;
                         .blog-field{
-
+                            position: absolute;
+                            top: 250px;
+                            left: 150px;
+                            @include styleText($fs-nav,$fw-text,$color-header);
                         }
                         img{
 
                         }
                         .card-body{
+                            padding-top: 30px;
                             h3{
                                 @include styleText($fs-text,$fw-600,$color-black);
+                                &:hover{
+                                    color: #0078ff;
+                                }
                             }
                             .card-text{
                                 @include styleText($fs-nav,$fw-text,$color-text);
