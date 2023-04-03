@@ -86,6 +86,52 @@
   color: #4e4e4e;
 }
 
+.blog .container .blog-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.blog .container .blog-heading h1 {
+  font-weight: 900;
+}
+.blog .container .blog-heading .bar {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.blog .container .blog-items .row .blog-item .card {
+  box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
+}
+.blog .container .blog-items .row .blog-item .card .card-body h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.blog .container .blog-items .row .blog-item .card .card-body .card-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4e4e4e;
+}
+.blog .container .blog-items .row .blog-item .card .card-footer .row .col-8 img {
+  width: 40px !important;
+}
+.blog .container .blog-items .row .blog-item .card .card-footer .row .col-8 span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4e4e4e;
+}
+.blog .container .blog-items .row .blog-item .card .card-footer .row .col-4 {
+  text-align: right;
+  padding-top: 10px;
+}
+.blog .container .blog-items .row .blog-item .card .card-footer .row .col-4 span i {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4e4e4e;
+}
+
 .figure {
   background-image: url(../../img/post-3.jpg);
   background-size: cover;
