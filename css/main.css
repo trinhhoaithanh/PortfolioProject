@@ -121,6 +121,20 @@
   font-weight: 300;
   color: #4e4e4e;
 }
+.back-to-top {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+  z-index: 10;
+}
+.back-to-top a {
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px 10px;
+  color: white;
+  background-color: blue;
+}
 .about .container {
   box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -2px 13px -5px rgba(0, 0, 0, 0.75);

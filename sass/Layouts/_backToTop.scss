@@ -1,0 +1,19 @@
+.back-to-top{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    
+    z-index: 10;
+    a{
+        
+        border-radius: 50%;
+        font-size: 30px;
+        padding: 10px 10px;
+        color: white;
+        background-color: blue;
+        i{
+            
+        }
+    }
+}
